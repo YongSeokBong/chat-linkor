@@ -1,0 +1,19 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "chatlinkor-dev-20200108095308-authRole",
+            "UnauthRoleArn": "arn:aws:iam::263080558184:role/chatlinkor-dev-20200108095308-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::263080558184:role/chatlinkor-dev-20200108095308-authRole",
+            "Region": "ap-northeast-2",
+            "DeploymentBucketName": "chatlinkor-dev-20200108095308-deployment",
+            "UnauthRoleName": "chatlinkor-dev-20200108095308-unauthRole",
+            "StackName": "chatlinkor-dev-20200108095308",
+            "StackId": "arn:aws:cloudformation:ap-northeast-2:263080558184:stack/chatlinkor-dev-20200108095308/3cb26c80-31b1-11ea-b131-02a3be530d22"
+        },
+        "categories": {
+            "auth": {
+                "chatlinkorb7c013a4": {}
+            }
+        }
+    }
+}

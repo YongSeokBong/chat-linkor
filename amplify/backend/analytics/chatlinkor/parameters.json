@@ -1,0 +1,20 @@
+{
+    "appName": "chatlinkor",
+    "roleName": "pinpointLambdaRoleb71c65ac",
+    "cloudWatchPolicyName": "cloudWatchPolicyb71c65ac",
+    "pinpointPolicyName": "pinpointPolicyb71c65ac",
+    "authPolicyName": "pinpoint_amplify_b71c65ac",
+    "unauthPolicyName": "pinpoint_amplify_b71c65ac",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}

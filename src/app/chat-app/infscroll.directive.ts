@@ -30,11 +30,11 @@ export class InfscrollDirective implements AfterViewInit {
     });
 }
 
-  ngAfterViewInit() {
-    this.scrollEvent = this.obs.pipe(
-      pairwise(),
-      filter(this.isScrollingUpPastThreshold.bind(this)));
-    this.scrollEvent.exhaustMap(() => this.appInfscroll()).subscribe({});
+ngAfterViewInit() {
+  this.scrollEvent = this.obs
+  .pipe(
+  pairwise(),
+  filter(this.isScrollingUpPastThreshold.bind(this)), exhaustMap(() => this.appInfscroll())).subscribe();
   }
 
   updateScrollTop() {
